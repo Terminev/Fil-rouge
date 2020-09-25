@@ -1,0 +1,25 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .boutonREH {
+      width: 80px;
+      height: 80px;
+      background: crimson;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      cursor: pointer;
+  }
+
+  .fa-arrow-up {
+      font-size: 40px;
+      color: white;
+  }

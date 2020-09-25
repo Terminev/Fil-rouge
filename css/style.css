@@ -17,6 +17,7 @@
       right: 20px;
       bottom: 20px;
       cursor: pointer;
+      z-index: 1;
   }
 
   .fa-arrow-up {
@@ -49,7 +50,6 @@ ul li{
     flex-direction: column;
     justify-content: center;
     padding: 15px;
-
 }
 
 li a {
@@ -61,3 +61,40 @@ ul li:hover {
     transition: 1s;
     background-color: #FFF5EC;
   }
+
+#bg {
+    background-color: white;
+    width: 100%;
+    margin-top: 5%;
+}
+
+#case1 {
+    width: 70%;
+    text-align: center;
+    padding: 10% 0;
+    border: solid black 2px;
+    border-radius: 10px;
+    background: linear-gradient(80deg, rgb(10, 152, 196), rgb(8, 235, 26));
+}
+
+#case1 h3 {
+    padding: 10%;
+}
+
+#case1 .fas {
+    animation: translation 2s infinite;
+}
+
+#anim {
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+@keyframes translation {
+    0% {transform : translateX(-20px);}
+    50% {transform : translateX(0px);}
+    100% {transform : translateX(-20px);}
+}

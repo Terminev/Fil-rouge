@@ -9,7 +9,6 @@
   .boutonREH {
       width: 80px;
       height: 80px;
-      background: #8E8988;
       border-radius: 50%;
       display: flex;
       justify-content: center;
@@ -31,7 +30,7 @@
     flex-direction: row;
     padding: 20px 0;
     text-align: center;
-    background-color: ;
+    background-color: #FFFEFD;
   }
 
   ul{
@@ -49,9 +48,16 @@ ul li{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 15px;
 
 }
 
 li a {
     color: black;
 }
+
+ul li:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    background-color: #FFF5EC;
+  }

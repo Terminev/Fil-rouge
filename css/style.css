@@ -5,6 +5,7 @@
     font-family: 'Roboto', sans-serif;
     list-style-type: none;
     color: black;
+    overflow-x: hidden;
   }
   
 /*Bouton retour en Haut*/
@@ -72,7 +73,6 @@ li a {
 }
 
 ul li:hover {
-    transform: scale(1.1);
     transition: 1.1s;
     background-color: #FFF5EC;
     box-shadow: 5px 5px 5px rgb(26, 24, 24);
@@ -160,6 +160,10 @@ footer p{
     0% {transform: rotate(0turn);}
     100% {transform: rotate(1turn);}
 }
+@keyframes pacman {
+    0% {transform: translate(-1800px);}
+    100% {transform: translate(1800px);} 
+}
 
 /*Fin Animation*/
 
@@ -174,3 +178,40 @@ footer p{
 #jeuxvidéo {
     width: 70%;
 }
+
+/*Fin page Sondage*/
+/*Page Jeux Vidéo*/
+#pacman {
+    width: 15%;
+    margin-top: 5%;
+    animation: pacman 8s infinite;
+    margin-left: 10%;
+}
+.question {
+    text-align: center;
+    flex-direction: row;
+    display: flex;
+    margin: 5%;
+}
+#qst {
+    width: 25%;
+    background-color: rgb(166, 247, 166);
+    border: solid black 0.5px;
+    border-radius: 10px;
+    padding: 2%;
+}
+#button {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 1.5em;
+    padding: 2%;
+    background-color: rgb(21, 168, 212);
+    width: 30%;
+}
+#button:hover{
+    background-color: orange;
+    transition: 0.8s;
+    cursor: pointer;
+}
+/*Fin Page Jeux Vidéo*/

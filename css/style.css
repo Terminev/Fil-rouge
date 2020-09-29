@@ -94,7 +94,7 @@ main h1 {
 #case1 {
     width: 55%;
     text-align: center;
-    padding: 10% 0;
+    padding: 7% 0;
     border: solid black 2px;
     border-radius: 10px;
     background: linear-gradient(80deg, rgb(44, 184, 226), rgb(86, 238, 98));

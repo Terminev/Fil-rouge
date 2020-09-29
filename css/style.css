@@ -162,3 +162,15 @@ footer p{
 }
 
 /*Fin Animation*/
+
+/*Page Sondage*/
+
+#sondageBG{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+#jeuxvidéo {
+    width: 70%;
+}

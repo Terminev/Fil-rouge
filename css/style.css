@@ -9,6 +9,7 @@
   
 /*Bouton retour en Haut*/
 
+
   .boutonREH {
       width: 80px;
       height: 80px;
@@ -22,6 +23,11 @@
       cursor: pointer;
       z-index: 20;
       background: turquoise;
+      opacity: 0.2;
+  }
+  .boutonREH:hover {
+      opacity: 1;
+      transition: 1s;
   }
 
   .fa-arrow-up {
@@ -67,7 +73,7 @@ li a {
 
 ul li:hover {
     transform: scale(1.1);
-    transition: 1.2s;
+    transition: 1.1s;
     background-color: #FFF5EC;
     box-shadow: 5px 5px 5px rgb(26, 24, 24);
     border: black solid 1px;
@@ -117,10 +123,27 @@ main h1 {
     width: 40%;
     justify-content: center;
     text-align: center;
-    
 }
 
 /*Fin Main*/
+/*Footer*/
+footer {
+    margin-top: 5%;
+    background-color: rgb(21, 168, 212);
+    text-align: center;
+}
+#footer img{
+    padding-top: 3%;
+    width: 15%;
+    height: auto;
+    display: flex;
+}
+footer p{
+    color:black;
+    font-size: 1.2em;
+    padding: 3%;
+}
+/*Fin Footer*/
 /*Animation*/
 
 @keyframes translation1 {

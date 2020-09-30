@@ -4,8 +4,8 @@
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     list-style-type: none;
-    color: black;
     overflow-x: hidden;
+    color: black;
   }
   
 /*Bouton retour en Haut*/
@@ -175,8 +175,10 @@ footer p{
     justify-content: center;
 }
 
-#jeuxvidéo {
-    width: 70%;
+#sondageBG img {
+    width: 60%;
+    height: 400px;
+    margin-top: 5%;
 }
 
 /*Fin page Sondage*/
@@ -215,3 +217,40 @@ footer p{
     cursor: pointer;
 }
 /*Fin Page Jeux Vidéo*/
+
+@media screen and (max-width:1000px) {
+    ul {
+        display: block;
+    }
+    .boutonREH {
+        width: 50px;
+        height: 50px;
+        right: 10px;
+        bottom: 10px;
+        opacity: 0.7;
+    }
+    @keyframes pacman {
+        0% {transform: translate(-1000px);}
+        100% {transform: translate(1000px);} 
+    }
+    @keyframes translation1 {
+        0% {transform : translateX(-8px);}
+        50% {transform : translateX(0px);}
+        100% {transform : translateX(-8px);}
+    }
+    @keyframes translation2 {
+        0% {transform : translateX(8px);}
+        50% {transform : translateX(0px);}
+        100% {transform : translateX(8px);}
+    }
+    main h1 {
+        width: 70%;
+    }
+    #case1 {
+        width: 70%;
+    }
+    #sondageBG img {
+        width: 100%;
+        height: auto;
+    }
+} 

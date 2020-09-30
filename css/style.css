@@ -44,7 +44,7 @@
     flex-direction: row;
     padding: 20px 0;
     text-align: center;
-    background-color: #FFFEFD;
+    background-color: #fdf3ea;
   }
 
   header img:hover {
@@ -217,6 +217,39 @@ footer p{
     cursor: pointer;
 }
 /*Fin Page Jeux Vidéo*/
+/*Sondage*/
+td{
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+th{
+    border-bottom: 1px solid black;
+    color: black;
+    background-color: rgba(92, 84, 84, 0.733);
+}
+table{
+    border-collapse: collapse;
+}
+tr {
+    text-transform: uppercase;
+    border: black solid 1px;
+}
+#conteneur2 {
+    margin-top: 5%;
+    width: 80%;
+    padding: 35px;
+    background-color: white;
+    display: flex;
+}
+#tableau{
+    width: 100%;
+    font-size: 1.2em;
+    border: none;
+    background-color: rgba(124, 107, 107, 0.658);
+}
+/*Fin Sondage*/
 
 @media screen and (max-width:1000px) {
     ul {
@@ -253,5 +286,12 @@ footer p{
     #sondageBG img {
         width: 100%;
         height: auto;
+    }
+    #table{
+        font-size: 1em;
+        text-transform: none;
+    }
+    tr {
+        text-transform: none;
     }
 } 

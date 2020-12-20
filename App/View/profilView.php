@@ -9,7 +9,7 @@ include '../inc/header.inc.php';
 
     <!-- Information du profil -->
     <section>
-        <img src="https://www.tbstat.com/wp/uploads/2019/07/20190724_Blockchain-Gaming.jpg">
+        <img src="Asset/img/fond.jpg" alt="photo de profil">
         <div class="info">
             <!-- Récupérations des infos dans la bdd -->
             <?php

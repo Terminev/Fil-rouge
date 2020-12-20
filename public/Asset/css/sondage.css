@@ -4,7 +4,7 @@
     height: 1.5em;
     border-radius: 0.5em;
     position: relative;
-    background: #f2f2f2;
+    background: #1F2223;
     box-shadow: inset 0 0 0 1px rgba(0,0,0,0.1);
     z-index: 0;
     overflow-y: hidden;
@@ -17,7 +17,7 @@
   .bar .percentage {
     position: relative;
     font-size: 1.5em;
-    background: tomato;
+    background: #A11900;
     height: 1em;
     border-radius: 0.5em;
     overflow-y: hidden;
@@ -34,7 +34,7 @@
   }
 
   #sondage{
-    background-color: #D5E9EC;
+    background-color: #1B383C;
     padding: 100px 15px;
     width: 800px;
     border-radius: 15px;

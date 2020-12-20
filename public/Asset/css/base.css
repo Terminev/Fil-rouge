@@ -3,11 +3,13 @@
     padding: 0;
     font-family: "Roboto";
     overflow-x: hidden;
+    color: white;
 }
 
 h2{
     text-align: center;
     font-size: 2em;
+    color: white;
 }
 
 a, p{

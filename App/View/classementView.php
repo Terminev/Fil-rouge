@@ -4,10 +4,14 @@ include '../inc/header.inc.php'; ?>
 <main>
     <section class="sectionTop">
         <h2>Top 3</h2>
-        <ul class="top">
-            <li><img src="../public/Asset/img/medal1.png" alt="Top1"><?= $top[0]->pseudo  ?></li>
-            <li><img src="../public/Asset/img/medal2.png" alt="Top2"><?= $top[1]->pseudo ?></li>
-            <li><img src="../public/Asset/img/medal3.png" alt="Top3"><?= $top[2]->pseudo ?></li>
+        <ul class="Top">
+            <div id="top">
+                <li><img src="../public/Asset/img/medal1.png" alt="Top1"><?= $top[0]->pseudo  ?></li>
+            </div>
+            <div class="bot">
+                <li><img src="../public/Asset/img/medal2.png" alt="Top2"><?= $top[1]->pseudo ?></li>
+                <li><img src="../public/Asset/img/medal3.png" alt="Top3"><?= $top[2]->pseudo ?></li>
+            </div>
         </ul>
     </section>
 

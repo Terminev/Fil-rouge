@@ -6,6 +6,7 @@
 #profil img{
     width: 100%;
     border-radius: 15px 15px 0 0;
+    height: 300px;
 }
 
 #profil p {

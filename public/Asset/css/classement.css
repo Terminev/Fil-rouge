@@ -1,8 +1,26 @@
-.top li img {
- width: 10%;
+.Top li img {
+    width: 95px;
 }
+
+.Top li {
+    display: grid;
+    text-align: center;
+    font-size: 20px;
+}
+
 .sectionTop {
     width: 60%;
-    background-color:#D5E9EC;
-    margin: auto; 
+    background-color: #1B383C;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.bot {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#top {
+    display: flex;
+    justify-content: center;
 }

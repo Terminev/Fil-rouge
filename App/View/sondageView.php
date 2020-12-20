@@ -183,7 +183,7 @@ list ($temps, $past) = TimeToFin($dateFin);
             <form method="post" enctype="multipart/form-data" id="partage">
                 <i class="fas fa-times"></i>
                 <div class="card-body">
-                    <h2 class="card-title">Partager le sondage : <br><?=$sondage[0][0]->question?></h2>
+                    <h2 class="card-title">Partager le sondage : <br><?=$sondage[0]->question?></h2>
                     <div class="row ">
                         <div class="col-sm-12 mt-4">
                             <label for="nbPerson">Nombre de personne</label>

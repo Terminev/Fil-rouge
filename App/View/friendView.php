@@ -39,9 +39,9 @@ include '../inc/header.inc.php'; ?>
                 <td name="pseudo"> <?=$friendA['pseudo']?> </td>
                 <!-- Status du membre : en ligne/hors ligne -->
                 <td><?php if($friendA['statut']){
-                    echo 'Connecté';
+                    echo '<i class="fas fa-circle" style="color: green;"></i>';
                 }else{
-                    echo 'Hors ligne';
+                    echo '<i class="fas fa-circle" style="color: red;"></i>';
                 }  ?></td>
                 <th><button name="deleteA"> <a href="index.php?page=friend&id=<?= $friendA['id'] ?>">
                             Supprimer</a></button></th>
@@ -53,9 +53,9 @@ include '../inc/header.inc.php'; ?>
             <tr>
                 <td name="pseudo"> <?=$friendB['pseudo']?> </td>
                 <td><?php if($friendB['statut']){
-                    echo 'Connecté';
+                    echo '<i class="fas fa-circle" style="color: green;"></i>';
                 }else{
-                    echo 'Hors ligne';
+                    echo '<i class="fas fa-circle" style="color: red;"></i>';
                 }  ?></td>
                 </td>
                 <th>

@@ -40,9 +40,9 @@ include '../inc/header.inc.php';
                 <td name="pseudo"> <?= $user->pseudo ?> </td>
                 <!-- Status du membre : en ligne/hors ligne -->
                 <td><?php if($user->statut == 1){
-                    echo 'Connecté';
+                    echo '<i class="fas fa-circle" style="color: green;"></i>';
                 }else{
-                    echo 'Hors ligne';
+                    echo '<i class="fas fa-circle" style="color: red;"></i>';
                 }  ?></td>
                 <!-- Hashage de l'id du membre -->
                 <?php $idFriendHash = password_hash($user->id, PASSWORD_DEFAULT); ?>

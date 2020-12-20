@@ -1,5 +1,6 @@
 .Top li img {
     width: 95px;
+    margin-bottom: 10px;
 }
 
 .Top li {
@@ -13,6 +14,9 @@
     background-color: #1B383C;
     margin: auto;
     border-radius: 20px;
+}
+.sectionTop h2 {
+    margin: 35px auto;
 }
 
 .bot {

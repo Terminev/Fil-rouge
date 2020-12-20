@@ -1,0 +1,17 @@
+.card-body{
+    background-color: #D5E9EC;
+}
+.card{
+    z-index: -1;
+    position: static;
+}
+#signForm{
+    z-index: -1;
+    position: static;
+}
+#signMain{
+    height: 75.7vh;
+    z-index: -1 !important;
+    position: static;
+
+}

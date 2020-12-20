@@ -1,0 +1,183 @@
+.bar {
+    /* font-size: 10px */
+    width: 30em;
+    height: 1.5em;
+    border-radius: 0.5em;
+    position: relative;
+    background: #f2f2f2;
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.1);
+    z-index: 0;
+    overflow-y: hidden;
+  }
+
+  #sondage .sond button{
+    width: 30em;
+  }
+
+  .bar .percentage {
+    position: relative;
+    font-size: 1.5em;
+    background: tomato;
+    height: 1em;
+    border-radius: 0.5em;
+    overflow-y: hidden;
+  }
+
+  #sondage p{
+    padding: 5px 0px 5px 10px;
+  }
+
+  .bar .percentage p{
+    color:white;
+    font-size: 0.8em;
+    padding: 0px 0px 0px 10px!important;
+  }
+
+  #sondage{
+    background-color: #D5E9EC;
+    padding: 100px 15px;
+    width: 800px;
+    border-radius: 15px;
+    margin: auto;
+  }
+
+  #sondage a{
+    text-decoration: none;
+    color: white;
+  }
+
+  #sondage a:hover{
+    text-decoration: none;
+    color: white;
+  }
+
+  #sondage h4{
+    margin: 10px 0;
+    padding-left: 10px;
+    /* color: black; */
+  }
+
+  #sondage .sond{
+    width: 30em;
+    margin: 0 auto;
+    display: block;
+    
+  }
+
+
+  #commentaire #com .msg{
+    width: 800px;
+    margin: auto;
+  }
+ 
+  #commentaire #com .msg div:first-child{
+    background-color: #106B7e;
+    display: flex;
+    align-items: center;
+  }
+
+  #commentaire #com .msg div{
+    padding: 5px;
+    border: #106B7e 1px solid;
+  }
+
+  #commentaire #com .msg img{
+    height: 50px;
+    padding: 0 10px;
+  }
+
+  #commentaire #com .msg div:first-child p{
+    color: white;
+    margin: 0;
+    padding: 0 10px;
+  }
+
+  #commentaire #com div:last-child p{
+    margin: 0;
+    padding: 0 20px;
+    font-size: 0.8em;
+  }
+
+  #commentaire .monCom{
+  display: none;
+}
+
+#commentaire textarea.form-control {
+    height: 100px;
+    width: 60%;
+    border: 1px #106B7e solid;
+    margin: auto;
+}
+
+#shareSondage{
+    display: none;
+    position: fixed;
+    z-index: 5;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#shareSondage .card{
+    background-color: #D5E9EC;
+}
+
+#shareSondage form i{
+    font-size: 30px;
+    text-align: right;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    float: right;
+}
+
+#shareSondage form i:hover{
+    color: #7e1010;
+}
+
+#shareSondage form textarea{
+  height: 200px;
+}
+
+#email{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width:800px){
+  #sondage{
+    width: 500px;
+  }
+
+  .bar, #sondage .sond button {
+    width: 400px;
+  }
+
+  #sondage .sond{
+    width: 400px; 
+  }
+
+  #com .msg{
+    width: 500px;
+  }
+}
+
+@media screen and (max-width:500px){
+  #sondage{
+    width: 100%;
+  }
+
+  .bar, #sondage .sond button {
+    width: 90%;
+  }
+
+  #sondage .sond{
+    width: 90%; 
+  }
+
+  #com .msg{
+    width: 100%;
+  }
+}

@@ -1,0 +1,107 @@
+.form-inline .btn{
+    border-radius: 0px 0.25rem 0.25rem 0px;
+}
+
+.form-inline input{
+    padding: 10px;
+    width: 400px!important;
+}
+
+.form-control{
+    border-radius: 0.25rem 0px 0px 0.25rem ;
+}
+
+.form-inline{
+    margin: 0 auto!important;
+    width: 445px!important;
+}
+
+td img{
+    height: 70px;
+}
+
+td, th{
+    background-color: #D5E9EC;
+}
+
+th, td{
+    padding: 10px 20px;
+    text-align: center;
+    width: 250px;
+}
+
+thead{
+    background-color: #106B7E;
+}
+
+thead th{
+    border-color: #106B7E;
+    border: 1px solid;
+    color: white;
+    font-weight: normal;
+    font-size: 1.2em;
+    background-color: #106B7E;
+}
+
+table{
+    margin: 0 auto;
+    border-radius: 0.25rem 0.25rem 0px 0px ;
+}
+
+th button{
+    background-color: #7e1010!important;
+    border-radius: 0.25rem;
+    font-weight: normal;
+    border-color: #7e1010!important;
+    padding: 5px 10px;
+}
+
+
+th button a{
+    color: white;
+    text-decoration: none;
+}
+
+td a{
+    color: white;
+}
+
+td a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+th button:hover{
+    background-color: #e21717!important;
+    border-color: #e21717!important;
+}
+
+th button a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width:1000px){
+    th, td{
+        width: 150px;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:470px){
+    .form-inline{
+        width: 345px!important;
+    }
+
+    .form-inline input{
+        width: 300px!important;
+    }
+
+    td img{
+        height: 50px;
+    }
+
+    .pp{
+        display: none;
+    }
+}

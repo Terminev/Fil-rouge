@@ -1,0 +1,44 @@
+#profil section{
+    width: 700px;
+    margin: 50px auto;
+}
+
+#profil img{
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+#profil .info{
+    display: flex;
+    background-color: #D5E9EC;
+    padding: 20px;
+    border-radius: 0 0 15px 15px;
+    font-size: 1.2em;
+    justify-content: space-around;
+}
+
+#profil .info p{
+    padding: 5px;
+}
+
+
+
+@media screen and (max-width:710px){
+    #profil section{
+        width: 400px;
+    }
+
+    #profil .info{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width:400px){
+    #profil section{
+        width: 250px;
+    }
+
+    #profil .info{
+        display: block;
+    }
+}

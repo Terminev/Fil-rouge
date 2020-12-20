@@ -2,11 +2,11 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8" />
-        <meta name="author" content="Alexandre Karen Benjamin">
-        <meta name="keywords" content="projet php ajax">
+        <meta name="author" content="Alexandre">
+        <meta name="keywords" content="projet fil-rouge sondage">
         <meta name="language" content="fr">
         <meta name="robots" content="index,follow">
-        <meta name="description" content="Maquette réalisé dans le cadre d'un projet scolaire">
+        <meta name="description" content="projet fil rouge réalisé par Alexandre Caramel.">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="../public/Asset/img/logo.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">

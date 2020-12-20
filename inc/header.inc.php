@@ -39,6 +39,8 @@
         <a href="../public/index.php?page=resultats">Résultat</a>
         <hr>
         <a href="../public/index.php?page=friend">Amis</a>
+        <hr>
+        <a href="../public/index.php?page=classement">Classement</a>
         <?php if($_SESSION['connect'] == true) { ?>
         <hr>
         <a href="index.php?page=home&action=deconnexion">Deconnexion</a>

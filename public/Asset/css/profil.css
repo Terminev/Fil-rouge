@@ -8,9 +8,13 @@
     border-radius: 15px 15px 0 0;
 }
 
+#profil p {
+    color: white;
+}
+
 #profil .info{
     display: flex;
-    background-color: #D5E9EC;
+    background-color: #1B383C;
     padding: 20px;
     border-radius: 0 0 15px 15px;
     font-size: 1.2em;

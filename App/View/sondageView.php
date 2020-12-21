@@ -174,10 +174,9 @@ list($temps, $past) = TimeToFin($dateFin);
         <form method="POST" action="<?php $_SERVER['PHP_SELF'] ?>" class="monCom">
             <textarea name="commentaire" id="commentaire" class="form-control" placeholder="Mon commentaire..."></textarea>
             <br>
-
+            <button name="sendcom" id="com2" class="btn btn-info com2 active" type="submit" style="margin:0 auto; display:block">Envoyez</button>
             <br>
         </form>
-        <button name="sendcom" id="com2" class="btn btn-info com2 active" type="submit" style="margin:0 auto; display:block">Envoyez</button>
     </section>
 
     <!-- Pop up du formulaire pour partager le sondage via les emails -->

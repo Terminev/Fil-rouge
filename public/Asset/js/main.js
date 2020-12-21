@@ -59,11 +59,6 @@ $("#formNbPerson").change(function () {
     }
 });
 
-
-$('#com2').click(function(e){
-     e.preventDefault();
-});
-
 //Rechargement des pages
 setInterval('load_commentaire()', 1000);
 

@@ -2,6 +2,7 @@
 include '../inc/head.inc.php';
 include '../inc/header.inc.php'; ?>
 <main>
+    <!-- Afficher le top 3, en fonction du nombre de point -->
     <section class="sectionTop">
         <h2>Top 3</h2>
         <ul class="Top">

@@ -60,8 +60,12 @@ $("#formNbPerson").change(function () {
 });
 
 
+$('#com2').click(function(e){
+     e.preventDefault();
+});
+
 //Rechargement des pages
-setInterval('load_commentaire()', 500);
+setInterval('load_commentaire()', 1000);
 
 function load_commentaire() {
     $('#com').load('#com .msg'); //Mise à jour des commentaires
@@ -69,3 +73,5 @@ function load_commentaire() {
     $('#friend tbody').load('#friend tbody tr'); //Mise à jour des status en ligne/hors ligne pour page ami
     $('#newFriend tbody').load('#newFriend tbody tr'); //Mise à jour des status en ligne/hors ligne pour page nouveau ami
 };
+
+

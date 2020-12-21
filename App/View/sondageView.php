@@ -174,9 +174,10 @@ list($temps, $past) = TimeToFin($dateFin);
         <form method="POST" action="<?php $_SERVER['PHP_SELF'] ?>" class="monCom">
             <textarea name="commentaire" id="commentaire" class="form-control" placeholder="Mon commentaire..."></textarea>
             <br>
-            <button name="sendcom" id="com2" class="btn btn-info com2 active" type="submit" style="margin:0 auto; display:block">Envoyez</button>
+
             <br>
         </form>
+        <button name="sendcom" id="com2" class="btn btn-info com2 active" type="submit" style="margin:0 auto; display:block">Envoyez</button>
     </section>
 
     <!-- Pop up du formulaire pour partager le sondage via les emails -->
@@ -190,7 +191,7 @@ list($temps, $past) = TimeToFin($dateFin);
                         <div class="col-sm-12 mt-4">
                             <label for="nbPerson">Nombre de personne</label>
                             <select id="formNbPerson" type="text" name="nbpersonne" class="form-control" placeholder="Choisissez le nombre de personne à qui partager" required="required" data-error="Le nombre de personne est requis.">
-                                <option value="0" selected class="value">Veuillez selectionner un nombre</option>
+                                <option value="0" selected>Veuillez selectionner un nombre</option>
                                 <option value="1" class="value">1</option>
                                 <option value="2" class="value">2</option>
                                 <option value="3" class="value">3</option>

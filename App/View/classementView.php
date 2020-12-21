@@ -15,7 +15,28 @@ include '../inc/header.inc.php'; ?>
         </ul>
     </section>
     <section class="classementFriend">
-        <?= var_dump($infosUser); ?>
+        <h2>Classement de mes Amis</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Pseudo</th>
+                    <th>Point</th>
+                    <th>Classement</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php
+                var_dump($infosUser[1]);
+                foreach ($infosUser as $friend) :
+                ?>
+                    <tr>
+                        <td><?= $friend->pseudo ?></td>
+                        <td><?= $friend->point ?></td>
+                        <th>1</th>
+                    </tr>
+                <?php endforeach; ?>
+            </tbody>
+        </table>
     </section>
 
 </main>

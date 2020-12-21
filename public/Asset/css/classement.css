@@ -14,7 +14,19 @@
     background-color: #1B383C;
     margin: auto;
     border-radius: 20px;
+    margin-top: 50px;
 }
+.classementFriend {
+    width: 80%;
+    background-color: #1B383C;
+    min-height: 50vh;
+    margin: 50px auto;
+    border-radius: 20px;
+}
+.classementFriend h2 {
+    margin: 35px auto;
+}
+
 .sectionTop h2 {
     margin: 35px auto;
 }

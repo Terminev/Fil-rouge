@@ -25,7 +25,7 @@ include '../inc/header.inc.php';
                         </div>
                         <div>
                             <p>Nombre d'amis : <?= $frienddata->nb_ami  ?></p>
-                            <p>Nombre de mes sondages : <?= $sondagedata->nb_sond ?></p>
+                            <p>Nombre de sondages : <?= $sondagedata->nb_sond ?></p>
                             <p>Email : <?= $userdata->email  ?></p>
                             <p>Date d'inscription : <?= $userdata->date  ?></p>
                         </div>

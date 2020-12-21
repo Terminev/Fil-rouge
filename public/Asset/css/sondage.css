@@ -10,6 +10,11 @@
     overflow-y: hidden;
   }
 
+  .value {
+    background-color: #181A1B;
+    color: white;
+  }
+
   #sondage .sond button{
     width: 30em;
   }
@@ -129,10 +134,13 @@
     cursor: pointer;
     display: flex;
     float: right;
+    color: black;
 }
 
 #shareSondage form i:hover{
     color: #7e1010;
+    transform: scale(1.2);
+    transition: 1s;
 }
 
 #shareSondage form textarea{

@@ -14,6 +14,9 @@ include '../inc/header.inc.php'; ?>
             </div>
         </ul>
     </section>
+    <section class="classementFriend">
+        <?= var_dump($infosUser); ?>
+    </section>
 
 </main>
 <?php include '../inc/footer.inc.php' ?>

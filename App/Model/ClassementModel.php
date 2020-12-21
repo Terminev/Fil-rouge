@@ -7,8 +7,8 @@ class ClassementModel extends Database {
     }
     function friendClassement() {
        $id = $_SESSION['user']['id'];
-       $myidFriendA = $this->query("SELECT `user_id_A` FROM `friend` WHERE `user_id_B` = '$id'");
-       $myidFriendB = $this->query("SELECT `user_id_B` FROM `friend` WHERE `user_id_A` = '$id'");
-       return $infosUser = $this->query("SELECT pseudo, `point` FROM `user` WHERE id = '$myidFriendA' OR id = '$myidFriendB' ORDER BY `point` DESC");
+        $idfriendA = $this->query("SELECT u.`pseudo` as pseudo,u.`point` as point, f.`user_id_A` as id FROM friend as f INNER JOIN user as u  on f.`user_id_A` = u.`id` WHERE f.`user_id_B` = '$id' ORDER BY `point` DESC");
+        $idfriendB = $this->query("SELECT u.`pseudo` as pseudo,u.`point` as point, f.`user_id_B` as id FROM friend as f INNER JOIN user as u  on f.`user_id_B` = u.`id` WHERE f.`user_id_A` = '$id' ORDER BY `point` DESC ");
+        return array($idfriendA, $idfriendB);
     }
 }

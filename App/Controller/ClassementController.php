@@ -14,7 +14,7 @@ class ClassementController
     public function render()
     {      
         $top = $this->model->Classement();
-        $infosUser = $this->model->friendClassement();
+        $myfriend = $this->model->friendClassement();
         //on require la vue    
         require ROOT . "/App/View/classementView.php";
     }

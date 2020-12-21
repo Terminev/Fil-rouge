@@ -16,6 +16,7 @@ include '../inc/header.inc.php';
             foreach ($user_infos[0] as $userdata) :
                 foreach ($user_infos[1] as $frienddata) :
                     foreach ($user_infos[2] as $sondagedata) :
+                        foreach ($user_infos[3] as $nbrpoints) :
             ?>
                         <div>
                             <p>Nom : <?= $userdata->nom  ?></p>
@@ -25,11 +26,12 @@ include '../inc/header.inc.php';
                         </div>
                         <div>
                             <p>Nombre d'amis : <?= $frienddata->nb_ami  ?></p>
-                            <p>Nombre de sondages : <?= $sondagedata->nb_sond ?></p>
+                            <p>Nombre de points : <?= $nbrpoints->point ?></p>
                             <p>Email : <?= $userdata->email  ?></p>
                             <p>Date d'inscription : <?= $userdata->date  ?></p>
                         </div>
             <?php
+                        endforeach;
                     endforeach;
                 endforeach;
             endforeach;

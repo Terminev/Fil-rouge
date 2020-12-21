@@ -12,7 +12,7 @@ include '../inc/header.inc.php';
                 <?php 
                 foreach($user_infos[0] as $userdata):
                 foreach($user_infos[1] as $frienddata):
-                foreach($user_infos[2] as $sondagedata):
+                foreach($user_infos[2] as $nbr):
                 ?>
                 <div>
                     <label for="nom">Nom :</label>
@@ -32,7 +32,7 @@ include '../inc/header.inc.php';
                     <label for="email">Email :</label>
                     <input type="email" name="email" class="form-control" value="<?= $userdata->email ?>">
                     <p style="margin-top: 10% ">Nombre d'amis : <?= $frienddata->nb_ami ?></p>
-                    <p>Nombre de mes sondages : <?= $sondagedata->nb_sond ?></p>
+                    <p>Nombre de points : <?= $nbr->point ?></p>
                     <p style="margin-top: 6%;">Date d'inscription : <?= $userdata->date ?></p>
                     <label style="margin-top: 1%;" for="mdp">Mdp actuel :</label>
                     <input type="password" name="mdp" class="form-control" placeholder="veuillez remplir le champ"

@@ -21,20 +21,25 @@ include '../inc/header.inc.php'; ?>
                 <tr>
                     <th>Pseudo</th>
                     <th>Point</th>
-                    <th>Classement</th>
                 </tr>
             </thead>
             <tbody>
                 <?php
-                var_dump($infosUser[1]);
-                foreach ($infosUser as $friend) :
+                foreach ($myfriend[0] as $myfriendA) :
                 ?>
                     <tr>
-                        <td><?= $friend->pseudo ?></td>
-                        <td><?= $friend->point ?></td>
-                        <th>1</th>
+                        <td> <?= $myfriendA->pseudo ?> </td>
+                        <td> <?= $myfriendA->point ?></td>
                     </tr>
-                <?php endforeach; ?>
+                <?php
+                endforeach;
+                foreach ($myfriend[1] as $myfriendB): ?>
+                <tr>
+                    <td> <?= $myfriendB->pseudo ?> </td>
+                    <td><?= $myfriendB->point ?></td>
+                </tr>
+                <?php endforeach ?>
+
             </tbody>
         </table>
     </section>
